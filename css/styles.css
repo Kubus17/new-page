@@ -139,7 +139,14 @@ header img {
 }
 
 /* end media*/
-
+/*modal*/
+.modal{
+    display: none;
+    position:fixed;
+    z-index: 1;
+}
+/**/
+/* end modal*/
 [class*="col-"] {
   float: left;
   min-height: 1px;

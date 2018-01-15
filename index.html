@@ -7,7 +7,7 @@
     <link rel="stylesheet" style="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" style="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
     <title>Edycja Video</title>
 </head>
@@ -191,11 +191,25 @@ Ponadto program dostosowano do Windows 10 i nowszych wydań systemu Microsoftu, 
       <div class="row">
           <div class="col-12 programmers">
             <h3> SOCIAL MEDIA <hr></h3><br>
-             <button class="icon-btn twitter"><i class="fa fa-twitter"></i></button>
-             <button class="icon-btn facebook"><i class="fa fa-facebook"></i></button>
-             <button class="icon-btn google-plus"><i class="fa fa-google-plus"></i></button>
-             <button class="icon-btn instagram"><i class="fa fa-instagram"></i></button>
+             <button id="btntwitter" class="icon-btn twitter"><i class="fa fa-twitter"></i></button>
+             <button id="btnfacebook" class="icon-btn facebook"><i class="fa fa-facebook"></i></button>
+             <button id="btngoogle" class="icon-btn google-plus"><i class="fa fa-google-plus"></i></button>
+             <button id="btninstagram" class="icon-btn instagram"><i class="fa fa-instagram"></i></button>
           </div>
+      </div>
+      <div id="mymodal" class="modal">
+        <div class="modal-content">
+          <div class="header-modal">
+             <span class="close">&times;</span>
+             <h2>Prezentujemy przykładowy film</h2>
+          </div>
+          <div class="body-modal">
+              
+          </div>
+          <div class="footer-modal">
+              
+          </div>
+        </div>
       </div>
     </div>
 </section>
@@ -203,6 +217,6 @@ Ponadto program dostosowano do Windows 10 i nowszych wydań systemu Microsoftu, 
     <p>Made by PP<br> september 2017
     </p>
 </footer>
-<script></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
